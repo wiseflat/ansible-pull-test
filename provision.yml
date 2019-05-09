@@ -6,4 +6,4 @@
   tasks:
     - name: debug 
       debug:
-        msg: "{{ ansible_hostname }}"
+        msg: "{{ ansible_hostname }} / {{ var1 }}"
