@@ -1,0 +1,9 @@
+---
+
+- name: localhost | pull test
+  hosts: localhost
+  become: no
+  tasks:
+    - name: debug 
+      debug:
+        msg: "{{ ansible_hostname }}"
