@@ -1,6 +1,6 @@
 ---
 
-- name: localhost | pull test
+- name: localhost | pull test1
   hosts: localhost
   become: no
   tasks:
